@@ -7,7 +7,6 @@ import numpy as np
 from PIL import Image
 import warnings
 import time
-import pandas_profiling
 from streamlit_pandas_profiling import st_profile_report
 
 ######################
