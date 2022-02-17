@@ -1,20 +1,15 @@
 import plotly.express as px  # pip install plotly-express
-import plotly.graph_objs as go
 import streamlit as st  # pip install streamlit
 import custom_functions
 import pandas as pd
-import numpy as np
 from PIL import Image
-import warnings
-import time
 
 ######################
 # Page Config
 ######################
-st.set_page_config(page_title="NVIDIA GPU Profiler Analysis", page_icon='./style/favicon.ico', layout="wide")
+st.set_page_config(page_title="NVIDIA GPU Profiler Analysis", page_icon='./style/favicon.png', layout="wide")
 # Use CSS Modifications stored in CSS file            
 st.markdown(f"<style>{custom_functions.local_css('style/style.css')}</style>", unsafe_allow_html=True)
-warnings.simplefilter("ignore") # Ignore openpyxl Excile File Warning while reading (no default style)
 
 ######################
 # Initialize variables
