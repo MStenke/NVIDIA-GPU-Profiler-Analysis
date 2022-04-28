@@ -1,10 +1,7 @@
 import pandas as pd
 import numpy as np
 import streamlit as st
-import plotly.express as px  # pip install plotly-express
-#import plotly.io as pio
-#from io import BytesIO
-#from datetime import datetime
+import plotly.express as px
 from PIL import Image
 import plotly.graph_objects as go
 from datetime import timedelta
